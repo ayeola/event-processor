@@ -1,0 +1,1 @@
+CREATE TABLE customer (id BIGSERIAL NOT NULL, nin varchar(255) UNIQUE, bvn varchar(255) UNIQUE, msisdn varchar(255) NOT NULL UNIQUE, first_name varchar(255), last_name varchar(255), dob date, address varchar(255), email varchar(255) UNIQUE, PRIMARY KEY (id));
